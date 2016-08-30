@@ -131,6 +131,7 @@
 				<string>425992B01D75B6C9002CEDD8</string>
 				<string>425992A11D75B491002CEDD8</string>
 				<string>425992AA1D75B491002CEDD8</string>
+				<string>425992C71D75BF94002CEDD8</string>
 				<string>425992A21D75B491002CEDD8</string>
 				<string>425992B51D75B784002CEDD8</string>
 				<string>425992C01D75BA65002CEDD8</string>
@@ -608,6 +609,7 @@
 		<dict>
 			<key>children</key>
 			<array>
+				<string>425992C41D75BF83002CEDD8</string>
 				<string>425992911D75B491002CEDD8</string>
 			</array>
 			<key>isa</key>
@@ -833,8 +835,6 @@
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Users</string>
 			<key>path</key>
 			<string>Users</string>
 			<key>sourceTree</key>
@@ -1194,6 +1194,52 @@
 		<dict>
 			<key>fileRef</key>
 			<string>425992C11D75BA79002CEDD8</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>425992C41D75BF83002CEDD8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>425992C51D75BF83002CEDD8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>API</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>425992C51D75BF83002CEDD8</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>425992C61D75BF94002CEDD8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>path</key>
+			<string>Providers</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>425992C61D75BF94002CEDD8</key>
+		<dict>
+			<key>fileEncoding</key>
+			<string>4</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.swift</string>
+			<key>path</key>
+			<string>SampleApiProvider.swift</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>425992C71D75BF94002CEDD8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>425992C61D75BF94002CEDD8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
