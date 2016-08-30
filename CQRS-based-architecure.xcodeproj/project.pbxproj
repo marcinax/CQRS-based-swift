@@ -12,9 +12,11 @@
 		425992791D75B123002CEDD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425992771D75B123002CEDD8 /* Main.storyboard */; };
 		4259927B1D75B123002CEDD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4259927A1D75B123002CEDD8 /* Assets.xcassets */; };
 		4259927E1D75B123002CEDD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4259927C1D75B123002CEDD8 /* LaunchScreen.storyboard */; };
+		FD0D37AB158925C194DF4498 /* Pods_CQRS_based_architecure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94A661699CA0A451D0E85E3 /* Pods_CQRS_based_architecure.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		304B81D3D938505C15A698E3 /* Pods-CQRS-based-architecure.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQRS-based-architecure.release.xcconfig"; path = "Pods/Target Support Files/Pods-CQRS-based-architecure/Pods-CQRS-based-architecure.release.xcconfig"; sourceTree = "<group>"; };
 		425992701D75B123002CEDD8 /* CQRS-based-architecure.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "CQRS-based-architecure.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		425992731D75B123002CEDD8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		425992751D75B123002CEDD8 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +24,8 @@
 		4259927A1D75B123002CEDD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4259927D1D75B123002CEDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4259927F1D75B123002CEDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC00DA82F7991968519B5CB /* Pods-CQRS-based-architecure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQRS-based-architecure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CQRS-based-architecure/Pods-CQRS-based-architecure.debug.xcconfig"; sourceTree = "<group>"; };
+		C94A661699CA0A451D0E85E3 /* Pods_CQRS_based_architecure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQRS_based_architecure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +33,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FD0D37AB158925C194DF4498 /* Pods_CQRS_based_architecure.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B488431077F45BE7FBC6A84 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CC00DA82F7991968519B5CB /* Pods-CQRS-based-architecure.debug.xcconfig */,
+				304B81D3D938505C15A698E3 /* Pods-CQRS-based-architecure.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		425992671D75B123002CEDD8 = {
 			isa = PBXGroup;
 			children = (
 				425992721D75B123002CEDD8 /* CQRS-based-architecure */,
 				425992711D75B123002CEDD8 /* Products */,
+				1B488431077F45BE7FBC6A84 /* Pods */,
+				94DD5F7EF3BEE84ED56503F5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -64,6 +80,14 @@
 			path = "CQRS-based-architecure";
 			sourceTree = "<group>";
 		};
+		94DD5F7EF3BEE84ED56503F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C94A661699CA0A451D0E85E3 /* Pods_CQRS_based_architecure.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -71,9 +95,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 425992821D75B123002CEDD8 /* Build configuration list for PBXNativeTarget "CQRS-based-architecure" */;
 			buildPhases = (
+				82ECCF3AF1B2EE3A29795904 /* [CP] Check Pods Manifest.lock */,
 				4259926C1D75B123002CEDD8 /* Sources */,
 				4259926D1D75B123002CEDD8 /* Frameworks */,
 				4259926E1D75B123002CEDD8 /* Resources */,
+				F8C9F01F029B3EAE203DF650 /* [CP] Embed Pods Frameworks */,
+				FCB1B609837CFF5DE31F51DA /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -129,6 +156,54 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		82ECCF3AF1B2EE3A29795904 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		F8C9F01F029B3EAE203DF650 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CQRS-based-architecure/Pods-CQRS-based-architecure-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FCB1B609837CFF5DE31F51DA /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-CQRS-based-architecure/Pods-CQRS-based-architecure-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4259926C1D75B123002CEDD8 /* Sources */ = {
@@ -247,6 +322,7 @@
 		};
 		425992831D75B123002CEDD8 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CC00DA82F7991968519B5CB /* Pods-CQRS-based-architecure.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CQRS-based-architecure/Info.plist";
@@ -258,6 +334,7 @@
 		};
 		425992841D75B123002CEDD8 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 304B81D3D938505C15A698E3 /* Pods-CQRS-based-architecure.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = "CQRS-based-architecure/Info.plist";
@@ -286,6 +363,7 @@
 				425992841D75B123002CEDD8 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
