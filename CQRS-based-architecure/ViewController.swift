@@ -1,23 +1,34 @@
-//
-//  ViewController.swift
-//  CQRS-based-architecure
-//
-//  Created by Whalla Labs on 30.08.2016.
-//  Copyright © 2016 Whalla Labs. All rights reserved.
-//
 
 import UIKit
+import RxSwift
 
 class ViewController: UIViewController {
-
+    let dispisables = DisposeBag()
+    var operationHandler = OperationHandler() //inject it of course and move to viewmodel
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        
+        //Sample usage:
+        
+        let user = SampleUser(name: "test", age: 20, email: "test@test.com")
+        self.operationHandler.execute(InsertUser(user: user))
+        
+        self.printUsers()
     }
 
+    private func printUsers() {
+        self.operationHandler.execute(GetAllUsers())
+            .subscribeNext { value in
+                print(value.count)
+            }.addDisposableTo(self.dispisables)
+
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+        
     }
 
 

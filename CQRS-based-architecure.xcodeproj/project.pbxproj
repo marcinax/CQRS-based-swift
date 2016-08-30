@@ -12,6 +12,25 @@
 		425992791D75B123002CEDD8 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 425992771D75B123002CEDD8 /* Main.storyboard */; };
 		4259927B1D75B123002CEDD8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4259927A1D75B123002CEDD8 /* Assets.xcassets */; };
 		4259927E1D75B123002CEDD8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4259927C1D75B123002CEDD8 /* LaunchScreen.storyboard */; };
+		4259928D1D75B3B6002CEDD8 /* ContextProviding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992891D75B3B6002CEDD8 /* ContextProviding.swift */; };
+		4259928E1D75B3B6002CEDD8 /* Providing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4259928A1D75B3B6002CEDD8 /* Providing.swift */; };
+		4259928F1D75B3B6002CEDD8 /* Operational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4259928B1D75B3B6002CEDD8 /* Operational.swift */; };
+		425992901D75B3B6002CEDD8 /* ContextOperational.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4259928C1D75B3B6002CEDD8 /* ContextOperational.swift */; };
+		425992A11D75B491002CEDD8 /* DefaultRealmConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992931D75B491002CEDD8 /* DefaultRealmConfig.swift */; };
+		425992A21D75B491002CEDD8 /* RealmConfigurable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992941D75B491002CEDD8 /* RealmConfigurable.swift */; };
+		425992A31D75B491002CEDD8 /* SampleUserRealm.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992961D75B491002CEDD8 /* SampleUserRealm.swift */; };
+		425992A41D75B491002CEDD8 /* RealmGetAllUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992991D75B491002CEDD8 /* RealmGetAllUsers.swift */; };
+		425992A61D75B491002CEDD8 /* RealmInsertUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4259929B1D75B491002CEDD8 /* RealmInsertUser.swift */; };
+		425992A91D75B491002CEDD8 /* RealmProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4259929F1D75B491002CEDD8 /* RealmProvider.swift */; };
+		425992AA1D75B491002CEDD8 /* RealmFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992A01D75B491002CEDD8 /* RealmFactory.swift */; };
+		425992B01D75B6C9002CEDD8 /* SampleUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992AF1D75B6C9002CEDD8 /* SampleUser.swift */; };
+		425992B31D75B750002CEDD8 /* SampleUserRealmMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992B21D75B750002CEDD8 /* SampleUserRealmMapper.swift */; };
+		425992B51D75B784002CEDD8 /* Convertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992B41D75B784002CEDD8 /* Convertible.swift */; };
+		425992B81D75B905002CEDD8 /* OperationHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992B71D75B905002CEDD8 /* OperationHandler.swift */; };
+		425992BB1D75B92C002CEDD8 /* GetAllUsers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992BA1D75B92C002CEDD8 /* GetAllUsers.swift */; };
+		425992BD1D75B93B002CEDD8 /* InsertUser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992BC1D75B93B002CEDD8 /* InsertUser.swift */; };
+		425992C01D75BA65002CEDD8 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992BF1D75BA65002CEDD8 /* ArrayExtensions.swift */; };
+		425992C21D75BA79002CEDD8 /* ObservableExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425992C11D75BA79002CEDD8 /* ObservableExtensions.swift */; };
 		FD0D37AB158925C194DF4498 /* Pods_CQRS_based_architecure.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C94A661699CA0A451D0E85E3 /* Pods_CQRS_based_architecure.framework */; };
 /* End PBXBuildFile section */
 
@@ -24,6 +43,25 @@
 		4259927A1D75B123002CEDD8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4259927D1D75B123002CEDD8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4259927F1D75B123002CEDD8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		425992891D75B3B6002CEDD8 /* ContextProviding.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextProviding.swift; sourceTree = "<group>"; };
+		4259928A1D75B3B6002CEDD8 /* Providing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Providing.swift; sourceTree = "<group>"; };
+		4259928B1D75B3B6002CEDD8 /* Operational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operational.swift; sourceTree = "<group>"; };
+		4259928C1D75B3B6002CEDD8 /* ContextOperational.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContextOperational.swift; sourceTree = "<group>"; };
+		425992931D75B491002CEDD8 /* DefaultRealmConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DefaultRealmConfig.swift; sourceTree = "<group>"; };
+		425992941D75B491002CEDD8 /* RealmConfigurable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmConfigurable.swift; sourceTree = "<group>"; };
+		425992961D75B491002CEDD8 /* SampleUserRealm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleUserRealm.swift; sourceTree = "<group>"; };
+		425992991D75B491002CEDD8 /* RealmGetAllUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmGetAllUsers.swift; sourceTree = "<group>"; };
+		4259929B1D75B491002CEDD8 /* RealmInsertUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmInsertUser.swift; sourceTree = "<group>"; };
+		4259929F1D75B491002CEDD8 /* RealmProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmProvider.swift; sourceTree = "<group>"; };
+		425992A01D75B491002CEDD8 /* RealmFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmFactory.swift; sourceTree = "<group>"; };
+		425992AF1D75B6C9002CEDD8 /* SampleUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleUser.swift; sourceTree = "<group>"; };
+		425992B21D75B750002CEDD8 /* SampleUserRealmMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleUserRealmMapper.swift; sourceTree = "<group>"; };
+		425992B41D75B784002CEDD8 /* Convertible.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Convertible.swift; sourceTree = "<group>"; };
+		425992B71D75B905002CEDD8 /* OperationHandler.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OperationHandler.swift; sourceTree = "<group>"; };
+		425992BA1D75B92C002CEDD8 /* GetAllUsers.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GetAllUsers.swift; sourceTree = "<group>"; };
+		425992BC1D75B93B002CEDD8 /* InsertUser.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InsertUser.swift; sourceTree = "<group>"; };
+		425992BF1D75BA65002CEDD8 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		425992C11D75BA79002CEDD8 /* ObservableExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ObservableExtensions.swift; sourceTree = "<group>"; };
 		8CC00DA82F7991968519B5CB /* Pods-CQRS-based-architecure.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQRS-based-architecure.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CQRS-based-architecure/Pods-CQRS-based-architecure.debug.xcconfig"; sourceTree = "<group>"; };
 		C94A661699CA0A451D0E85E3 /* Pods_CQRS_based_architecure.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CQRS_based_architecure.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -53,9 +91,9 @@
 			isa = PBXGroup;
 			children = (
 				425992721D75B123002CEDD8 /* CQRS-based-architecure */,
-				425992711D75B123002CEDD8 /* Products */,
-				1B488431077F45BE7FBC6A84 /* Pods */,
 				94DD5F7EF3BEE84ED56503F5 /* Frameworks */,
+				1B488431077F45BE7FBC6A84 /* Pods */,
+				425992711D75B123002CEDD8 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -70,14 +108,154 @@
 		425992721D75B123002CEDD8 /* CQRS-based-architecure */ = {
 			isa = PBXGroup;
 			children = (
+				425992AC1D75B6B1002CEDD8 /* BLL */,
+				425992871D75B351002CEDD8 /* Core */,
+				425992861D75B338002CEDD8 /* DAL */,
 				425992731D75B123002CEDD8 /* AppDelegate.swift */,
-				425992751D75B123002CEDD8 /* ViewController.swift */,
-				425992771D75B123002CEDD8 /* Main.storyboard */,
 				4259927A1D75B123002CEDD8 /* Assets.xcassets */,
-				4259927C1D75B123002CEDD8 /* LaunchScreen.storyboard */,
 				4259927F1D75B123002CEDD8 /* Info.plist */,
+				4259927C1D75B123002CEDD8 /* LaunchScreen.storyboard */,
+				425992771D75B123002CEDD8 /* Main.storyboard */,
+				425992751D75B123002CEDD8 /* ViewController.swift */,
 			);
 			path = "CQRS-based-architecure";
+			sourceTree = "<group>";
+		};
+		425992861D75B338002CEDD8 /* DAL */ = {
+			isa = PBXGroup;
+			children = (
+				425992911D75B491002CEDD8 /* RealmDatabase */,
+			);
+			path = DAL;
+			sourceTree = "<group>";
+		};
+		425992871D75B351002CEDD8 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				425992BE1D75BA49002CEDD8 /* Extensions */,
+				425992881D75B369002CEDD8 /* Infrastructure */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		425992881D75B369002CEDD8 /* Infrastructure */ = {
+			isa = PBXGroup;
+			children = (
+				4259928C1D75B3B6002CEDD8 /* ContextOperational.swift */,
+				425992891D75B3B6002CEDD8 /* ContextProviding.swift */,
+				4259928B1D75B3B6002CEDD8 /* Operational.swift */,
+				4259928A1D75B3B6002CEDD8 /* Providing.swift */,
+				425992B41D75B784002CEDD8 /* Convertible.swift */,
+			);
+			path = Infrastructure;
+			sourceTree = "<group>";
+		};
+		425992911D75B491002CEDD8 /* RealmDatabase */ = {
+			isa = PBXGroup;
+			children = (
+				425992921D75B491002CEDD8 /* Config */,
+				425992951D75B491002CEDD8 /* Models */,
+				425992971D75B491002CEDD8 /* Operations */,
+				4259929E1D75B491002CEDD8 /* Providers */,
+				425992A01D75B491002CEDD8 /* RealmFactory.swift */,
+			);
+			path = RealmDatabase;
+			sourceTree = "<group>";
+		};
+		425992921D75B491002CEDD8 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				425992931D75B491002CEDD8 /* DefaultRealmConfig.swift */,
+				425992941D75B491002CEDD8 /* RealmConfigurable.swift */,
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		425992951D75B491002CEDD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				425992961D75B491002CEDD8 /* SampleUserRealm.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		425992971D75B491002CEDD8 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				425992981D75B491002CEDD8 /* Users */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		425992981D75B491002CEDD8 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				425992991D75B491002CEDD8 /* RealmGetAllUsers.swift */,
+				4259929B1D75B491002CEDD8 /* RealmInsertUser.swift */,
+			);
+			name = Users;
+			path = TrainingStatistics;
+			sourceTree = "<group>";
+		};
+		4259929E1D75B491002CEDD8 /* Providers */ = {
+			isa = PBXGroup;
+			children = (
+				4259929F1D75B491002CEDD8 /* RealmProvider.swift */,
+			);
+			path = Providers;
+			sourceTree = "<group>";
+		};
+		425992AC1D75B6B1002CEDD8 /* BLL */ = {
+			isa = PBXGroup;
+			children = (
+				425992B61D75B8F9002CEDD8 /* Operations */,
+				425992AE1D75B6B9002CEDD8 /* Models */,
+			);
+			path = BLL;
+			sourceTree = "<group>";
+		};
+		425992AE1D75B6B9002CEDD8 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				425992B11D75B736002CEDD8 /* Mappers */,
+				425992AF1D75B6C9002CEDD8 /* SampleUser.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		425992B11D75B736002CEDD8 /* Mappers */ = {
+			isa = PBXGroup;
+			children = (
+				425992B21D75B750002CEDD8 /* SampleUserRealmMapper.swift */,
+			);
+			path = Mappers;
+			sourceTree = "<group>";
+		};
+		425992B61D75B8F9002CEDD8 /* Operations */ = {
+			isa = PBXGroup;
+			children = (
+				425992B91D75B920002CEDD8 /* Users */,
+				425992B71D75B905002CEDD8 /* OperationHandler.swift */,
+			);
+			path = Operations;
+			sourceTree = "<group>";
+		};
+		425992B91D75B920002CEDD8 /* Users */ = {
+			isa = PBXGroup;
+			children = (
+				425992BA1D75B92C002CEDD8 /* GetAllUsers.swift */,
+				425992BC1D75B93B002CEDD8 /* InsertUser.swift */,
+			);
+			path = Users;
+			sourceTree = "<group>";
+		};
+		425992BE1D75BA49002CEDD8 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				425992BF1D75BA65002CEDD8 /* ArrayExtensions.swift */,
+				425992C11D75BA79002CEDD8 /* ObservableExtensions.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 		94DD5F7EF3BEE84ED56503F5 /* Frameworks */ = {
@@ -210,8 +388,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4259928E1D75B3B6002CEDD8 /* Providing.swift in Sources */,
 				425992761D75B123002CEDD8 /* ViewController.swift in Sources */,
+				425992901D75B3B6002CEDD8 /* ContextOperational.swift in Sources */,
+				425992B31D75B750002CEDD8 /* SampleUserRealmMapper.swift in Sources */,
+				425992B81D75B905002CEDD8 /* OperationHandler.swift in Sources */,
+				425992A41D75B491002CEDD8 /* RealmGetAllUsers.swift in Sources */,
+				425992B01D75B6C9002CEDD8 /* SampleUser.swift in Sources */,
+				425992A11D75B491002CEDD8 /* DefaultRealmConfig.swift in Sources */,
+				425992AA1D75B491002CEDD8 /* RealmFactory.swift in Sources */,
+				425992A21D75B491002CEDD8 /* RealmConfigurable.swift in Sources */,
+				425992B51D75B784002CEDD8 /* Convertible.swift in Sources */,
+				425992C01D75BA65002CEDD8 /* ArrayExtensions.swift in Sources */,
+				425992C21D75BA79002CEDD8 /* ObservableExtensions.swift in Sources */,
+				4259928F1D75B3B6002CEDD8 /* Operational.swift in Sources */,
+				4259928D1D75B3B6002CEDD8 /* ContextProviding.swift in Sources */,
+				425992A31D75B491002CEDD8 /* SampleUserRealm.swift in Sources */,
+				425992BD1D75B93B002CEDD8 /* InsertUser.swift in Sources */,
 				425992741D75B123002CEDD8 /* AppDelegate.swift in Sources */,
+				425992A61D75B491002CEDD8 /* RealmInsertUser.swift in Sources */,
+				425992A91D75B491002CEDD8 /* RealmProvider.swift in Sources */,
+				425992BB1D75B92C002CEDD8 /* GetAllUsers.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -224,6 +421,7 @@
 				425992781D75B123002CEDD8 /* Base */,
 			);
 			name = Main.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 		4259927C1D75B123002CEDD8 /* LaunchScreen.storyboard */ = {
@@ -232,6 +430,7 @@
 				4259927D1D75B123002CEDD8 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
+			path = .;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */

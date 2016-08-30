@@ -1,9 +1,14 @@
-//
-//  SampleUser.swift
-//  CQRS-based-architecure
-//
-//  Created by Whalla Labs on 30.08.2016.
-//  Copyright © 2016 Whalla Labs. All rights reserved.
-//
 
 import Foundation
+
+final class SampleUser {
+    let name: String
+    let age: Int
+    let email: String
+    
+    init(name: String, age: Int, email: String) {
+        self.name = name
+        self.age = age
+        self.email = email
+    }
+}

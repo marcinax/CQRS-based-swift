@@ -1,9 +1,11 @@
-//
-//  ObservableExtensions.swift
-//  CQRS-based-architecure
-//
-//  Created by Whalla Labs on 30.08.2016.
-//  Copyright © 2016 Whalla Labs. All rights reserved.
-//
 
 import Foundation
+import RxSwift
+
+extension ObservableType {
+    func map<T: Convertible where T.TIn == E>(converter: T) -> Observable<T.TOut> {
+        return self.map { value -> T.TOut in
+            return converter.convert(value)
+        }
+    }
+}

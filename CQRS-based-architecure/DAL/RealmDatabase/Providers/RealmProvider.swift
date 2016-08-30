@@ -9,7 +9,7 @@ final class RealmProvider : ContextProviding {
     let realm: Realm
     
     init() {
-        self.realm = RealmFactory.getRealm(DefaultRealmConfig(fileName: "trainingStats"))
+        self.realm = RealmFactory.getRealm(DefaultRealmConfig(fileName: "users"))
     }
     
     func execute<TOut, O: ContextOperational where O.TContext == TContext, O.TOut == TOut>(operation: O) -> TOut

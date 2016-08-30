@@ -1,9 +1,10 @@
-//
-//  ArrayExtensions.swift
-//  CQRS-based-architecure
-//
-//  Created by Whalla Labs on 30.08.2016.
-//  Copyright © 2016 Whalla Labs. All rights reserved.
-//
 
 import Foundation
+
+extension SequenceType {
+    func map<T: Convertible where T.TIn == Self.Generator.Element>(converter: T) -> [T.TOut] {
+        return self.map { value -> T.TOut in
+            return converter.convert(value)
+        }
+    }
+}
